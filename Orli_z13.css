@@ -1,17 +1,12 @@
 body 
 {
-    color: blue;
-    font-size: 18mm;
+    color: purple;
+    font-size: 16mm;
 }
 
 p 
 {
-    color: green;
+    color: blue;
     font-size: 18mm;
 }
-
-h1
-{
-    
-
-}
+/* Orliński Z13_css */

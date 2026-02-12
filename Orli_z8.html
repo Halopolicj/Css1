@@ -2,14 +2,37 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Zadanie 8 Orliński</title>
+    <title>Orliński Z8_html</title>
 </head>
 <body>
-<h1>Temat: Wewnętrzny arkusz stylów</h1>
-    <h1><b>1)gdzie jest wstawiany?</b></h1>
-    <h1><b>2)składnia teoretyczna (w ramce, konieczne wcięcia),</b></h1>
-    <h1><b>3)jakie mogą być selektory?</b></h1>
-    <h1><b>4)jakie mogą być cechy i wartości?</b></h1>
-    
+<center><h1>Wewnętrzny arkusz stylów</h1></center>
+<ol>
+    <h1><li>Gdzie jest wstawiany?</li></h1>
+    Wstawia się zawsze w części nagłówkowej dokumentu <br>
+    (pomiędzy znacznikami &lt;head&gt; a &lt;/head&gt;).
+
+    <h1><li>Składnia teoretyczna</li></h1>
+    <textarea disabled style="width: 90%; height: 150px; overflow: hidden;">
+<head>
+    (...)
+    <style type="text/css">
+        selektor1 { cecha: wartość; cecha2: wartość2... }
+        selektor2 { cecha: wartość; cecha2: wartość2... }
+        (...)
+    </style>
+    (...)
+</head>
+    </textarea>
+
+    <h1><li>Jakie mogą być selektory?</li></h1>
+    Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+    tabeli) i inne.
+
+    <h1><li>Jakie mogą być cechy i wartości?</li></h1>
+    Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty
+    formatowania nam chodzi (opisane w kolejnych rozdziałach).
+    Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+</ol>
 </body>
+<!-- Orliński Z8_html-->
 </html>

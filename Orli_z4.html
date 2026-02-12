@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Orliński Z4_html</title>
+    </head>
+    <body>
+        <ol>
+            <li>
+                Zewnętrzny arkusz stylów.<br>
+                <textarea disabled style="width: 400; height: 70; overflow: hidden;" >
+<head>
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+</head>
+                </textarea>
+
+
+
+            </li>
+            <li>    
+                    Styl lokalny inaczej: (styl wpisany, liniowy, linijkowy, w linii) czyli
+                    dopisanie arkusza do wybranego bloku treści strony.<br>
+<textarea disabled style="width: 400; height: 35; overflow: hidden;">
+    <selektor style="cecha1: wartość1; cecha2: wartość2">...</selektor>
+</textarea>
+
+
+
+            </li>
+            <li>  
+                Wewnętrzny arkusz stylów.<br>
+                <textarea disabled style="width: 400; height: 120; overflow: hidden;">
+<head>
+    <style type="text/css">
+        selektor1 { cecha: wartość; cecha2: wartość2 }
+        selektor2 { cecha: wartość; cecha2: wartość2 }
+    </style>
+</head>
+                </textarea>
+
+
+
+            </li>
+            <li>
+    Alternatywny arkusz stylów.<br>
+                <textarea disabled style="width: 400; height: 150; overflow: hidden;">
+<head>
+    <link rel="Stylesheet" type="text/css" href="style.css" title="Nazwa domyślna" />
+    <link rel="Alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" />
+    <link rel="Alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" />
+</head>
+                </textarea>
+
+
+
+            </li>
+            <li>
+    Import arkusza stylów.<br>
+                <textarea disabled style="width: 400; height: 70; overflow: hidden;">
+<style type="text/css">
+    @import url(adres zewnętrznego arkusza stylów);
+</style>
+                </textarea>
+            </li>
+        </ol>
+    </body>
+    <!-- Orliński z4_html-->
+</html>
