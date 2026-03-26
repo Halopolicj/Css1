@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <h1>1. Opis znacznika DIV</h1>
+    <p><b>Jaki to element:</b> Jest to element blokowy (block-level).</p>
+    
+    <p><b>Składnia:</b></p>
+    <div>
+        <textarea disabled="true" style="width: 500px;">
+    <div style="cecha: wartość; cecha2: wartość2...">...</div>
+        </textarea>
+    </pre>
+
+    <p><b>Zastosowanie:</b> Służy do grupowania innych elementów w celu tworzenia sekcji i struktury strony. Jest uniwersalnym kontenerem.</p>
+    
+    <p><b>Opis teoretyczny:</b> Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie
+zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia
+obszerniejszych struktur.</p>
+    
+    <p><b>Atrybuty:</b> class, id, style, title, lang, dir, align.</p>
+    
+    <p><b>Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane)</b></p>
+
+    <hr>
+
+    <!-- Zadanie 2 -->
+    <h1>2. Opis znacznika SPAN</h1>
+    <p><b>Jaki to element:</b> Jest to element liniowy (inline).</p>
+
+    <p><b>Składnia:</b></p>
+    <textarea disabled="true" style="width: 500px;">
+    <span style="cecha1: wartość1; cecha2: wartość2...">...</span>
+    </textarea>
+    <p><b>Zastosowanie:</b> Służy do wyróżniania małych fragmentów tekstu lub elementów wewnątrz linii, np. w celu zmiany wyglądu konkretnego słowa w zdaniu.</p>
+
+    <p><b>Opis teoretyczny:</b>Znacznik &lt;span&gt;...&lt;/span&gt; pozwala na objęcie pewnego większego fragmentu dokumentu.</p>
+
+    <hr>
+
+    <!-- Zadanie 3 -->
+    <h1>3. Różnica między znacznikami DIV i SPAN</h1>
+    <table border="1" >
+        <tr>
+            <th>Cecha</th>
+            <th>DIV</th>
+            <th>SPAN</th>
+        </tr>
+        <tr>
+            <td>Typ wyświetlania</td>
+            <td>Blokowy</td>
+            <td>Liniowy</td>
+        </tr>
+        <tr>
+            <td>Przejście do nowej linii</td>
+            <td>Tak</td>
+            <td>Nie</td>
+        </tr>
+        <tr>
+            <td>Szerokość</td>
+            <td>Pełna dostępna</td>
+            <td>Tylko tyle, ile treść</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Zadanie 4 -->
+    <h1>4. Typy elementów/tagów</h1>
+    
+    <b>1) Liniowe (inline)</b>
+    <p>Wyświetlają się w jednej linii z sąsiadującymi elementami. Przykłady: span, a, b, i, img, strong.</p>
+
+    <b>2) Blokowe (block)</b>
+    <p>Zawsze zaczynają się od nowej linii i rozciągają się do krawędzi kontenera. Przykłady: div, p, h1, ul, li, header, section.</p>
+
+    <b>3) Blokowo-liniowe (inline-block)</b>
+    <p>Elementy, które układają się w jednej linii (jak liniowe), ale pozwalają na ustawianie wymiarów takich jak szerokość i wysokość (jak blokowe). Przykładem są: button, input, select.</p>
+    </body>
+</html>
+<!--Michał Orliński-->
