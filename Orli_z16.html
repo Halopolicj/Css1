@@ -8,19 +8,21 @@
     <p><b>Jaki to element:</b> Jest to element blokowy (block-level).</p>
     
     <p><b>Składnia:</b></p>
-    <pre>
     <div>
-        Treść elementu
-    </div>
+        <textarea disabled="true" style="width: 500px;">
+    <div style="cecha: wartość; cecha2: wartość2...">...</div>
+        </textarea>
     </pre>
 
     <p><b>Zastosowanie:</b> Służy do grupowania innych elementów w celu tworzenia sekcji i struktury strony. Jest uniwersalnym kontenerem.</p>
     
-    <p><b>Opis teoretyczny:</b> Znacznik DIV nie posiada własnego znaczenia semantycznego. Domyślnie zajmuje 100% dostępnej szerokości i zawsze zaczyna się od nowej linii.</p>
+    <p><b>Opis teoretyczny:</b> Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie
+zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia
+obszerniejszych struktur.</p>
     
     <p><b>Atrybuty:</b> class, id, style, title, lang, dir, align.</p>
     
-    <p><b>Opis atrybutu ALIGN:</b> Służy do określenia wyrównania zawartości wewnątrz kontenera (left - do lewej, right - do prawej, center - do środka, justify - wyjustowanie). W nowym standardzie HTML5 zaleca się zastąpienie go stylami CSS.</p>
+    <p><b>Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane)</b></p>
 
     <hr>
 
@@ -29,19 +31,18 @@
     <p><b>Jaki to element:</b> Jest to element liniowy (inline).</p>
 
     <p><b>Składnia:</b></p>
-    <pre>
-    <span>Fragment tekstu</span>
-    </pre>
-
+    <textarea disabled="true" style="width: 500px;">
+    <span style="cecha1: wartość1; cecha2: wartość2...">...</span>
+    </textarea>
     <p><b>Zastosowanie:</b> Służy do wyróżniania małych fragmentów tekstu lub elementów wewnątrz linii, np. w celu zmiany wyglądu konkretnego słowa w zdaniu.</p>
 
-    <p><b>Opis teoretyczny:</b> Jest to neutralny kontener liniowy. Nie powoduje przełamania linii i zajmuje tylko tyle miejsca, ile potrzebuje jego zawartość.</p>
+    <p><b>Opis teoretyczny:</b>Znacznik &lt;span&gt;...&lt;/span&gt; pozwala na objęcie pewnego większego fragmentu dokumentu.</p>
 
     <hr>
 
     <!-- Zadanie 3 -->
     <h1>3. Różnica między znacznikami DIV i SPAN</h1>
-    <table border="1">
+    <table border="1" >
         <tr>
             <th>Cecha</th>
             <th>DIV</th>
@@ -69,13 +70,13 @@
     <!-- Zadanie 4 -->
     <h1>4. Typy elementów/tagów</h1>
     
-    1) Liniowe (inline)
+    <b>1) Liniowe (inline)</b>
     <p>Wyświetlają się w jednej linii z sąsiadującymi elementami. Przykłady: span, a, b, i, img, strong.</p>
 
-    2) Blokowe (block)
+    <b>2) Blokowe (block)</b>
     <p>Zawsze zaczynają się od nowej linii i rozciągają się do krawędzi kontenera. Przykłady: div, p, h1, ul, li, header, section.</p>
 
-    3) Blokowo-liniowe (inline-block)
+    <b>3) Blokowo-liniowe (inline-block)</b>
     <p>Elementy, które układają się w jednej linii (jak liniowe), ale pozwalają na ustawianie wymiarów takich jak szerokość i wysokość (jak blokowe). Przykładem są: button, input, select.</p>
     </body>
 </html>
