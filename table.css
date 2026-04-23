@@ -6,3 +6,6 @@ table, th, td {
     padding-bottom: 5px;
     padding-top: 5x;
 }
+th {
+    text-align: center;
+}
