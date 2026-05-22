@@ -1,0 +1,16 @@
+* {
+    font-size: 36pt;
+    color: red;
+    background-color: silver;
+}
+
+p.klasa_nieuniwersalna_orlinski
+{
+    font-size: 33pt;
+    color: green;
+}
+
+.klasa_uniwersalna {
+    font-size: 25pt;
+    color: green;
+}
