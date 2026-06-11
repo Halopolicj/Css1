@@ -1,0 +1,28 @@
+p.jed:first-letter {
+    font-size: 115pt;
+    color: yellow;
+}
+p.dwa:first-letter {
+    font-size: 115pt;
+    color: red;
+}
+
+h1:first-letter{
+    color: silver;
+    font-size: 115pt;
+}
+
+p.czt:first-letter {
+    color: red;
+    font-size: 115pt;
+}
+
+p.czt:first-line{
+    color: red;
+}
+
+p {
+    font-size: 21pt;
+    color: blue;
+}
+/* Orliński z67_css */
